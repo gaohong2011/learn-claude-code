@@ -11,7 +11,7 @@
 ## 第 1 周：单 Agent 主骨架（s01-s06）
 
 ### Day 1 架构总览与最小 Loop
-- [ ] 阅读项：`README-zh.md`；`docs/zh/s00-architecture-overview.md`；`docs/zh/s00b-one-request-lifecycle.md`；`docs/zh/s01-the-agent-loop.md`；`agents/s01_agent_loop.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/01-agent-loop.md`；`/Users/hong.gao/python/src/claude-code-codex/src/query.ts:225-328,391-500,631-792`；`/Users/hong.gao/python/src/claude-code-codex/src/query/deps.ts:1-40`
+- [x] 阅读项：`README-zh.md`；`docs/zh/s00-architecture-overview.md`；`docs/zh/s00b-one-request-lifecycle.md`；`docs/zh/s01-the-agent-loop.md`；`agents/s01_agent_loop.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/01-agent-loop.md`；`/Users/hong.gao/python/src/claude-code-codex/src/query.ts:225-328,391-500,631-792`；`/Users/hong.gao/python/src/claude-code-codex/src/query/deps.ts:1-40`
 - [ ] 产出项：画一张“用户输入 -> query state -> 模型响应 -> tool_result -> 下一轮”的最小闭环图，并补 5 句解释单 agent 为什么必须长出 query control plane。
 - [ ] 验证命令：`python agents/s01_agent_loop.py`
 - [ ] 输出物链接：[]()
