@@ -12,9 +12,9 @@
 
 ### Day 1 架构总览与最小 Loop
 - [x] 阅读项：`README-zh.md`；`docs/zh/s00-architecture-overview.md`；`docs/zh/s00b-one-request-lifecycle.md`；`docs/zh/s01-the-agent-loop.md`；`agents/s01_agent_loop.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/01-agent-loop.md`；`/Users/hong.gao/python/src/claude-code-codex/src/query.ts:225-328,391-500,631-792`；`/Users/hong.gao/python/src/claude-code-codex/src/query/deps.ts:1-40`
-- [ ] 产出项：画一张“用户输入 -> query state -> 模型响应 -> tool_result -> 下一轮”的最小闭环图，并补 5 句解释单 agent 为什么必须长出 query control plane。
-- [ ] 验证命令：`python agents/s01_agent_loop.py`
-- [ ] 输出物链接：[]()
+- [x] 产出项：画一张“用户输入 -> query state -> 模型响应 -> tool_result -> 下一轮”的最小闭环图，并补 5 句解释单 agent 为什么必须长出 query control plane。
+- [x] 验证命令：`python agents/s01_agent_loop.py`
+- [x] 输出物链接：[s01-day1-query-loop-output.md](./s01-day1-query-loop-output.md)
 
 ### Day 2 Tool Control Plane 与执行面
 - [ ] 阅读项：`docs/zh/s02-tool-use.md`；`docs/zh/s02a-tool-control-plane.md`；`docs/zh/s02b-tool-execution-runtime.md`；`agents/s02_tool_use.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/05-tool-skill-system.md`；`/Users/hong.gao/python/src/claude-code-codex/src/tools.ts:191-257,260-387`；`/Users/hong.gao/python/src/claude-code-codex/src/services/tools/toolOrchestration.ts:8-188`；`/Users/hong.gao/python/src/claude-code-codex/src/services/tools/StreamingToolExecutor.ts:53-145,265-521`
