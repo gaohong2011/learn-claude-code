@@ -17,10 +17,10 @@
 - [x] 输出物链接：[s01-day1-query-loop-output.md](./s01-day1-query-loop-output.md)
 
 ### Day 2 Tool Control Plane 与执行面
-- [ ] 阅读项：`docs/zh/s02-tool-use.md`；`docs/zh/s02a-tool-control-plane.md`；`docs/zh/s02b-tool-execution-runtime.md`；`agents/s02_tool_use.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/05-tool-skill-system.md`；`/Users/hong.gao/python/src/claude-code-codex/src/tools.ts:191-257,260-387`；`/Users/hong.gao/python/src/claude-code-codex/src/services/tools/toolOrchestration.ts:8-188`；`/Users/hong.gao/python/src/claude-code-codex/src/services/tools/StreamingToolExecutor.ts:53-145,265-521`
-- [ ] 产出项：写 1 页“tool pool -> permission gate -> execution runtime -> tool_result 回流”的调用链笔记，明确串行/并行分组条件。
-- [ ] 验证命令：`python agents/s02_tool_use.py`
-- [ ] 输出物链接：[]()
+- [x] 阅读项：`docs/zh/s02-tool-use.md`；`docs/zh/s02a-tool-control-plane.md`；`docs/zh/s02b-tool-execution-runtime.md`；`agents/s02_tool_use.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/05-tool-skill-system.md`；`/Users/hong.gao/python/src/claude-code-codex/src/tools.ts:191-257,260-387`；`/Users/hong.gao/python/src/claude-code-codex/src/services/tools/toolOrchestration.ts:8-188`；`/Users/hong.gao/python/src/claude-code-codex/src/services/tools/StreamingToolExecutor.ts:53-145,265-521`
+- [x] 产出项：写 1 页“tool pool -> permission gate -> execution runtime -> tool_result 回流”的调用链笔记，明确串行/并行分组条件。
+- [x] 验证命令：`python agents/s02_tool_use.py`
+- [x] 输出物链接：[s02-day2-tool-control-plane-output.md](./s02-day2-tool-control-plane-output.md)
 
 ### Day 3 会话规划与一次性委派
 - [ ] 阅读项：`docs/zh/s03-todo-write.md`；`docs/zh/s04-subagent.md`；`agents/s03_todo_write.py`；`agents/s04_subagent.py`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/TodoWriteTool/TodoWriteTool.ts:31-115`；`/Users/hong.gao/python/src/claude-code-codex/docs/04-multi-agent-coordinator.md`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/AgentTool/AgentTool.tsx:110-196,239-356,567-670,736-846`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/AgentTool/runAgent.ts:103-225,256-420,930-1037`
