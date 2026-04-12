@@ -23,10 +23,10 @@
 - [x] 输出物链接：[s02-day2-tool-control-plane-output.md](./s02-day2-tool-control-plane-output.md)
 
 ### Day 3 会话规划与一次性委派
-- [ ] 阅读项：`docs/zh/s03-todo-write.md`；`docs/zh/s04-subagent.md`；`agents/s03_todo_write.py`；`agents/s04_subagent.py`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/TodoWriteTool/TodoWriteTool.ts:31-115`；`/Users/hong.gao/python/src/claude-code-codex/docs/04-multi-agent-coordinator.md`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/AgentTool/AgentTool.tsx:110-196,239-356,567-670,736-846`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/AgentTool/runAgent.ts:103-225,256-420,930-1037`
-- [ ] 产出项：做一张 “Todo / Plan / Subagent” 对比表，维度至少包含状态存放位置、上下文边界、生命周期、返回结果方式。
-- [ ] 验证命令：`python agents/s04_subagent.py`
-- [ ] 输出物链接：[]()
+- [x] 阅读项：`docs/zh/s03-todo-write.md`；`docs/zh/s04-subagent.md`；`agents/s03_todo_write.py`；`agents/s04_subagent.py`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/TodoWriteTool/TodoWriteTool.ts:31-115`；`/Users/hong.gao/python/src/claude-code-codex/docs/04-multi-agent-coordinator.md`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/AgentTool/AgentTool.tsx:110-196,239-356,567-670,736-846`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/AgentTool/runAgent.ts:103-225,256-420,930-1037`
+- [x] 产出项：做一张 “Todo / Plan / Subagent” 对比表，维度至少包含状态存放位置、上下文边界、生命周期、返回结果方式。
+- [x] 验证命令：`python agents/s04_subagent.py`
+- [x] 输出物链接：[s03-day3-todo-plan-subagent-output.md](./s03-day3-todo-plan-subagent-output.md)
 
 ### Day 4 Skill 发现、按需加载与输入注入
 - [ ] 阅读项：`docs/zh/s05-skill-loading.md`；`docs/zh/s00e-reference-module-map.md`；`agents/s05_skill_loading.py`；`/Users/hong.gao/python/src/claude-code-codex/src/skills/loadSkillsDir.ts:78-270,407-638,861-1063`；`/Users/hong.gao/python/src/claude-code-codex/src/constants/prompts.ts:333-352,444-577`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/systemPrompt.ts:41-123`
