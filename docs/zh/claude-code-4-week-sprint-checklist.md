@@ -29,10 +29,10 @@
 - [x] 输出物链接：[s03-day3-todo-plan-subagent-output.md](./s03-day3-todo-plan-subagent-output.md)
 
 ### Day 4 Skill 发现、按需加载与输入注入
-- [ ] 阅读项：`docs/zh/s05-skill-loading.md`；`docs/zh/s00e-reference-module-map.md`；`agents/s05_skill_loading.py`；`/Users/hong.gao/python/src/claude-code-codex/src/skills/loadSkillsDir.ts:78-270,407-638,861-1063`；`/Users/hong.gao/python/src/claude-code-codex/src/constants/prompts.ts:333-352,444-577`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/systemPrompt.ts:41-123`
-- [ ] 产出项：画出 “发现技能 -> 生成描述 -> 按需展开正文 -> 注入输入管道” 的 4 步图，并写一段为什么 `s05` 必须早于 `s06`。
-- [ ] 验证命令：`python agents/s05_skill_loading.py`
-- [ ] 输出物链接：[]()
+- [x] 阅读项：`docs/zh/s05-skill-loading.md`；`docs/zh/s00e-reference-module-map.md`；`agents/s05_skill_loading.py`；`/Users/hong.gao/python/src/claude-code-codex/src/skills/loadSkillsDir.ts:78-270,407-638,861-1063`；`/Users/hong.gao/python/src/claude-code-codex/src/constants/prompts.ts:333-352,444-577`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/systemPrompt.ts:41-123`
+- [x] 产出项：画出 “发现技能 -> 生成描述 -> 按需展开正文 -> 注入输入管道” 的 4 步图，并写一段为什么 `s05` 必须早于 `s06`。
+- [x] 验证命令：`python agents/s05_skill_loading.py`
+- [x] 输出物链接：[s05-day4-skill-loading-output.md](./s05-day4-skill-loading-output.md)
 
 ### Day 5 Compact、Transition 与阶段 1 复盘
 - [ ] 阅读项：`docs/zh/s06-context-compact.md`；`docs/zh/s00c-query-transition-model.md`；`agents/s06_context_compact.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/02-context-management.md`；`/Users/hong.gao/python/src/claude-code-codex/src/services/compact/microCompact.ts:138-164,226-305,422-446`；`/Users/hong.gao/python/src/claude-code-codex/src/services/compact/autoCompact.ts:33-93,160-351`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/toolResultStorage.ts:137-232,421-498,536-924,960-1001`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/tokens.ts:46-79,226-261`
