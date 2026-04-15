@@ -35,10 +35,10 @@
 - [x] 输出物链接：[s05-day4-skill-loading-output.md](./s05-day4-skill-loading-output.md)
 
 ### Day 5 Compact、Transition 与阶段 1 复盘
-- [ ] 阅读项：`docs/zh/s06-context-compact.md`；`docs/zh/s00c-query-transition-model.md`；`agents/s06_context_compact.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/02-context-management.md`；`/Users/hong.gao/python/src/claude-code-codex/src/services/compact/microCompact.ts:138-164,226-305,422-446`；`/Users/hong.gao/python/src/claude-code-codex/src/services/compact/autoCompact.ts:33-93,160-351`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/toolResultStorage.ts:137-232,421-498,536-924,960-1001`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/tokens.ts:46-79,226-261`
-- [ ] 产出项：整理 `skill loading / tool result budget / microcompact / autocompact / transition reason` 的关系图，并写 1 页“单 agent 主骨架已成立”的阶段复盘。
-- [ ] 验证命令：`python agents/s06_context_compact.py`
-- [ ] 输出物链接：[]()
+- [x] 阅读项：`docs/zh/s06-context-compact.md`；`docs/zh/s00c-query-transition-model.md`；`agents/s06_context_compact.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/02-context-management.md`；`/Users/hong.gao/python/src/claude-code-codex/src/services/compact/microCompact.ts:138-164,226-305,422-446`；`/Users/hong.gao/python/src/claude-code-codex/src/services/compact/autoCompact.ts:33-93,160-351`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/toolResultStorage.ts:137-232,421-498,536-924,960-1001`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/tokens.ts:46-79,226-261`
+- [x] 产出项：整理 `skill loading / tool result budget / microcompact / autocompact / transition reason` 的关系图，并写 1 页“单 agent 主骨架已成立”的阶段复盘。
+- [x] 验证命令：`python agents/s06_context_compact.py`
+- [x] 输出物链接：[s06-day5-compact-transition-stage1-review-output.md](./s06-day5-compact-transition-stage1-review-output.md)、[s06-day5-skill-budget-compact-transition-map.md](./s06-day5-skill-budget-compact-transition-map.md)
 
 ## 第 2 周：控制面加固（s07-s11）
 
