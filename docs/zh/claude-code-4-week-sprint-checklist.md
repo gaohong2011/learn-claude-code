@@ -43,10 +43,10 @@
 ## 第 2 周：控制面加固（s07-s11）
 
 ### Day 6 Permission Gate 与 Sandbox
-- [ ] 阅读项：`docs/zh/s07-permission-system.md`；`docs/zh/s00a-query-control-plane.md`；`agents/s07_permission_system.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/06-sandbox-system.md`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/permissions/permissions.ts:473-945,1071-1477`；`/Users/hong.gao/python/src/claude-code-codex/src/hooks/toolPermission/handlers/interactiveHandler.ts:57-430`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/BashTool/shouldUseSandbox.ts:21-153`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/sandbox/sandbox-adapter.ts:99-404,422-479,532-927`
-- [ ] 产出项：画出“deny rules -> mode -> allow rules -> ask user -> sandbox”决策树，并单独列出 Bash 为什么要有独立安全通道。
-- [ ] 验证命令：`python agents/s07_permission_system.py`
-- [ ] 输出物链接：[]()
+- [x] 阅读项：`docs/zh/s07-permission-system.md`；`docs/zh/s00a-query-control-plane.md`；`agents/s07_permission_system.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/06-sandbox-system.md`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/permissions/permissions.ts:473-945,1071-1477`；`/Users/hong.gao/python/src/claude-code-codex/src/hooks/toolPermission/handlers/interactiveHandler.ts:57-430`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/BashTool/shouldUseSandbox.ts:21-153`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/sandbox/sandbox-adapter.ts:99-404,422-479,532-927`
+- [x] 产出项：画出“deny rules -> mode -> allow rules -> ask user -> sandbox”决策树，并单独列出 Bash 为什么要有独立安全通道。
+- [x] 验证命令：`python agents/s07_permission_system.py`
+- [x] 学习指南：[day6-permission-gate-and-sandbox-guide.md](./day6-permission-gate-and-sandbox-guide.md) 输出物链接：[s07-day6-permission-gate-sandbox-output.md](./s07-day6-permission-gate-sandbox-output.md)
 
 ### Day 7 Hook 事件与侧车扩展
 - [ ] 阅读项：`docs/zh/s08-hook-system.md`；`agents/s08_hook_system.py`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/hooks/hookEvents.ts:61-188`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/hooks/AsyncHookRegistry.ts:30-309`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/hooks/sessionHooks.ts:68-437`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/hooks/postSamplingHooks.ts:31-70`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/hooks/registerSkillHooks.ts:20-64`；`/Users/hong.gao/python/src/claude-code-codex/src/services/tools/toolExecution.ts:492-760`
