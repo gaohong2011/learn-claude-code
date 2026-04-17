@@ -49,10 +49,10 @@
 - [x] 学习指南：[day6-permission-gate-and-sandbox-guide.md](./day6-permission-gate-and-sandbox-guide.md) 输出物链接：[s07-day6-permission-gate-sandbox-output.md](./s07-day6-permission-gate-sandbox-output.md)
 
 ### Day 7 Hook 事件与侧车扩展
-- [ ] 阅读项：`docs/zh/s08-hook-system.md`；`agents/s08_hook_system.py`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/hooks/hookEvents.ts:61-188`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/hooks/AsyncHookRegistry.ts:30-309`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/hooks/sessionHooks.ts:68-437`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/hooks/postSamplingHooks.ts:31-70`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/hooks/registerSkillHooks.ts:20-64`；`/Users/hong.gao/python/src/claude-code-codex/src/services/tools/toolExecution.ts:492-760`
-- [ ] 产出项：写一页 Hook 事件矩阵，至少覆盖“触发时机 / 输入载荷 / 返回语义 / 是否影响主循环推进”四列。
-- [ ] 验证命令：`python agents/s08_hook_system.py`
-- [ ] 输出物链接：[]()
+- [x] 阅读项：`docs/zh/s08-hook-system.md`；`agents/s08_hook_system.py`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/hooks/hookEvents.ts:61-188`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/hooks/AsyncHookRegistry.ts:30-309`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/hooks/sessionHooks.ts:68-437`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/hooks/postSamplingHooks.ts:31-70`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/hooks/registerSkillHooks.ts:20-64`；`/Users/hong.gao/python/src/claude-code-codex/src/services/tools/toolExecution.ts:492-760`
+- [x] 产出项：写一页 Hook 事件矩阵，至少覆盖“触发时机 / 输入载荷 / 返回语义 / 是否影响主循环推进”四列。
+- [x] 验证命令：`python agents/s08_hook_system.py`
+- [x] 学习指南：[day7-hook-events-and-sidecar-guide.md](./day7-hook-events-and-sidecar-guide.md) 输出物链接：[s08-day7-hook-events-sidecar-output.md](./s08-day7-hook-events-sidecar-output.md)
 
 ### Day 8 Memory、Transcript 与 CLAUDE.md 链
 - [ ] 阅读项：`docs/zh/s09-memory-system.md`；`docs/zh/data-structures.md`；`agents/s09_memory_system.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/03-memory-persistence.md`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/sessionStorage.ts:976-1128,1408-1576,2069-2399,3306-3472`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/claudemd.ts:254-451,618-790,1153-1479`；`/Users/hong.gao/python/src/claude-code-codex/src/services/SessionMemory/sessionMemory.ts:134-357,387-495`；`/Users/hong.gao/python/src/claude-code-codex/src/services/extractMemories/extractMemories.ts:171-232,296-510,598-615`
