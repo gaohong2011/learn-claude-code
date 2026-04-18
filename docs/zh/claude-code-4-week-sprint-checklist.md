@@ -55,10 +55,10 @@
 - [x] 学习指南：[day7-hook-events-and-sidecar-guide.md](./day7-hook-events-and-sidecar-guide.md) 输出物链接：[s08-day7-hook-events-sidecar-output.md](./s08-day7-hook-events-sidecar-output.md)
 
 ### Day 8 Memory、Transcript 与 CLAUDE.md 链
-- [ ] 阅读项：`docs/zh/s09-memory-system.md`；`docs/zh/data-structures.md`；`agents/s09_memory_system.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/03-memory-persistence.md`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/sessionStorage.ts:976-1128,1408-1576,2069-2399,3306-3472`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/claudemd.ts:254-451,618-790,1153-1479`；`/Users/hong.gao/python/src/claude-code-codex/src/services/SessionMemory/sessionMemory.ts:134-357,387-495`；`/Users/hong.gao/python/src/claude-code-codex/src/services/extractMemories/extractMemories.ts:171-232,296-510,598-615`
-- [ ] 产出项：补一张“transcript / session memory / auto memory / CLAUDE.md”边界图，并写出哪些信息不该被放进 memory。
-- [ ] 验证命令：`python agents/s09_memory_system.py`
-- [ ] 输出物链接：[]()
+- [x] 阅读项：`docs/zh/s09-memory-system.md`；`docs/zh/data-structures.md`；`agents/s09_memory_system.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/03-memory-persistence.md`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/sessionStorage.ts:976-1128,1408-1576,2069-2399,3306-3472`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/claudemd.ts:254-451,618-790,1153-1479`；`/Users/hong.gao/python/src/claude-code-codex/src/services/SessionMemory/sessionMemory.ts:134-357,387-495`；`/Users/hong.gao/python/src/claude-code-codex/src/services/extractMemories/extractMemories.ts:171-232,296-510,598-615`
+- [x] 产出项：补一张“transcript / session memory / auto memory / CLAUDE.md”边界图，并写出哪些信息不该被放进 memory。
+- [x] 验证命令：`python agents/s09_memory_system.py`
+- [x] 学习指南：[day8-memory-transcript-claudemd-guide.md](./day8-memory-transcript-claudemd-guide.md) 输出物链接：[s09-day8-memory-transcript-claudemd-output.md](./s09-day8-memory-transcript-claudemd-output.md)
 
 ### Day 9 System Prompt Pipeline
 - [ ] 阅读项：`docs/zh/s10-system-prompt.md`；`docs/zh/s10a-message-prompt-pipeline.md`；`agents/s10_system_prompt.py`；`/Users/hong.gao/python/src/claude-code-codex/src/constants/prompts.ts:127-167,444-651,760-860`；`/Users/hong.gao/python/src/claude-code-codex/src/constants/systemPromptSections.ts:20-65`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/systemPrompt.ts:41-123`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/attachments.ts:744-1047,1711-1793,2197-2380,2548-2689`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/api.ts:437-479,566-718`
