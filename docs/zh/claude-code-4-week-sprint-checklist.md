@@ -67,10 +67,10 @@
 - [x] 学习指南：[day9-system-prompt-pipeline-guide.md](./day9-system-prompt-pipeline-guide.md) 输出物链接：[s10-day9-system-prompt-pipeline-output.md](./s10-day9-system-prompt-pipeline-output.md)
 
 ### Day 10 Error Recovery 与阶段 2 复盘
-- [ ] 阅读项：`docs/zh/s11-error-recovery.md`；`docs/zh/s00c-query-transition-model.md`；`agents/s11_error_recovery.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/01-agent-loop.md`；`/Users/hong.gao/python/src/claude-code-codex/src/query.ts:950-1034,1152-1458`；`/Users/hong.gao/python/src/claude-code-codex/src/query/tokenBudget.ts:13-93`；`/Users/hong.gao/python/src/claude-code-codex/src/services/api/claude.ts:764-921,1358-1686,3087-3182,3402-3588`
-- [ ] 产出项：画出“continue / compact / backoff / fail”恢复状态机，并写 1 页“高完成度单 agent 的控制面已经成立”总结。
-- [ ] 验证命令：`python -m pytest tests/test_agents_smoke.py -q`
-- [ ] 输出物链接：[]()
+- [x] 阅读项：`docs/zh/s11-error-recovery.md`；`docs/zh/s00c-query-transition-model.md`；`agents/s11_error_recovery.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/01-agent-loop.md`；`/Users/hong.gao/python/src/claude-code-codex/src/query.ts:950-1034,1152-1458`；`/Users/hong.gao/python/src/claude-code-codex/src/query/tokenBudget.ts:13-93`；`/Users/hong.gao/python/src/claude-code-codex/src/services/api/claude.ts:764-921,1358-1686,3087-3182,3402-3588`
+- [x] 产出项：画出“continue / compact / backoff / fail”恢复状态机，并写 1 页“高完成度单 agent 的控制面已经成立”总结。
+- [x] 验证命令：`python -m pytest tests/test_agents_smoke.py -q`
+- [x] 学习指南：[day10-error-recovery-stage2-review-guide.md](./day10-error-recovery-stage2-review-guide.md) 输出物链接：[s11-day10-error-recovery-stage2-review-output.md](./s11-day10-error-recovery-stage2-review-output.md)
 
 ## 第 3 周：持久任务层与运行时层（s12-s14）
 
