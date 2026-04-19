@@ -61,10 +61,10 @@
 - [x] 学习指南：[day8-memory-transcript-claudemd-guide.md](./day8-memory-transcript-claudemd-guide.md) 输出物链接：[s09-day8-memory-transcript-claudemd-output.md](./s09-day8-memory-transcript-claudemd-output.md)
 
 ### Day 9 System Prompt Pipeline
-- [ ] 阅读项：`docs/zh/s10-system-prompt.md`；`docs/zh/s10a-message-prompt-pipeline.md`；`agents/s10_system_prompt.py`；`/Users/hong.gao/python/src/claude-code-codex/src/constants/prompts.ts:127-167,444-651,760-860`；`/Users/hong.gao/python/src/claude-code-codex/src/constants/systemPromptSections.ts:20-65`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/systemPrompt.ts:41-123`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/attachments.ts:744-1047,1711-1793,2197-2380,2548-2689`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/api.ts:437-479,566-718`
-- [ ] 产出项：写一份 system prompt 组装清单，至少列出“核心身份、工具说明、skills、memory、CLAUDE.md、动态环境”六类来源。
-- [ ] 验证命令：`python agents/s10_system_prompt.py`
-- [ ] 输出物链接：[]()
+- [x] 阅读项：`docs/zh/s10-system-prompt.md`；`docs/zh/s10a-message-prompt-pipeline.md`；`agents/s10_system_prompt.py`；`/Users/hong.gao/python/src/claude-code-codex/src/constants/prompts.ts:127-167,444-651,760-860`；`/Users/hong.gao/python/src/claude-code-codex/src/constants/systemPromptSections.ts:20-65`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/systemPrompt.ts:41-123`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/attachments.ts:744-1047,1711-1793,2197-2380,2548-2689`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/api.ts:437-479,566-718`
+- [x] 产出项：写一份 system prompt 组装清单，至少列出“核心身份、工具说明、skills、memory、CLAUDE.md、动态环境”六类来源。
+- [x] 验证命令：`python agents/s10_system_prompt.py`
+- [x] 学习指南：[day9-system-prompt-pipeline-guide.md](./day9-system-prompt-pipeline-guide.md) 输出物链接：[s10-day9-system-prompt-pipeline-output.md](./s10-day9-system-prompt-pipeline-output.md)
 
 ### Day 10 Error Recovery 与阶段 2 复盘
 - [ ] 阅读项：`docs/zh/s11-error-recovery.md`；`docs/zh/s00c-query-transition-model.md`；`agents/s11_error_recovery.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/01-agent-loop.md`；`/Users/hong.gao/python/src/claude-code-codex/src/query.ts:950-1034,1152-1458`；`/Users/hong.gao/python/src/claude-code-codex/src/query/tokenBudget.ts:13-93`；`/Users/hong.gao/python/src/claude-code-codex/src/services/api/claude.ts:764-921,1358-1686,3087-3182,3402-3588`
