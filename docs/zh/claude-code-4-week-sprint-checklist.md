@@ -75,10 +75,10 @@
 ## 第 3 周：持久任务层与运行时层（s12-s14）
 
 ### Day 11 Durable Task Graph
-- [ ] 阅读项：`docs/zh/s12-task-system.md`；`docs/zh/data-structures.md`；`agents/s12_task_system.py`；`/Users/hong.gao/python/src/claude-code-codex/src/Task.ts:27-125`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/types.ts:1-46`；`/Users/hong.gao/python/src/claude-code-codex/src/commands/tasks/tasks.tsx:1-7`
-- [ ] 产出项：整理 durable task 的状态机，至少包含创建、阻塞、解锁、认领、完成、失败六种状态。
-- [ ] 验证命令：`python agents/s12_task_system.py`
-- [ ] 输出物链接：[]()
+- [x] 阅读项：`docs/zh/s12-task-system.md`；`docs/zh/data-structures.md`；`agents/s12_task_system.py`；`/Users/hong.gao/python/src/claude-code-codex/src/Task.ts:27-125`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/types.ts:1-46`；`/Users/hong.gao/python/src/claude-code-codex/src/commands/tasks/tasks.tsx:1-7`
+- [x] 产出项：整理 durable task 的状态机，至少包含创建、阻塞、解锁、认领、完成、失败六种状态。
+- [x] 验证命令：`python agents/s12_task_system.py`
+- [x] 学习指南：[day11-durable-task-graph-guide.md](./day11-durable-task-graph-guide.md) 输出物链接：[s12-day11-durable-task-graph-output.md](./s12-day11-durable-task-graph-output.md)
 
 ### Day 12 Runtime Task 与后台执行
 - [ ] 阅读项：`docs/zh/s13-background-tasks.md`；`docs/zh/s13a-runtime-task-model.md`；`agents/s13_background_tasks.py`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/LocalShellTask/LocalShellTask.tsx:39-180,180-259,293-515`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/LocalAgentTask/LocalAgentTask.tsx:50-149,197-270,412-657`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/RemoteAgentTask/RemoteAgentTask.tsx:124-225,386-808`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/InProcessTeammateTask/types.ts:78-121`
