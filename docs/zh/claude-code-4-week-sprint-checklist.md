@@ -81,16 +81,16 @@
 - [x] 学习指南：[day11-durable-task-graph-guide.md](./day11-durable-task-graph-guide.md) 输出物链接：[s12-day11-durable-task-graph-output.md](./s12-day11-durable-task-graph-output.md)
 
 ### Day 12 Runtime Task 与后台执行
-- [ ] 阅读项：`docs/zh/s13-background-tasks.md`；`docs/zh/s13a-runtime-task-model.md`；`agents/s13_background_tasks.py`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/LocalShellTask/LocalShellTask.tsx:39-180,180-259,293-515`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/LocalAgentTask/LocalAgentTask.tsx:50-149,197-270,412-657`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/RemoteAgentTask/RemoteAgentTask.tsx:124-225,386-808`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/InProcessTeammateTask/types.ts:78-121`
-- [ ] 产出项：做一张 runtime task 类型族地图，明确 `local_bash / local_agent / remote_agent / teammate` 各自属于什么执行槽位。
-- [ ] 验证命令：`python agents/s13_background_tasks.py`
-- [ ] 输出物链接：[]()
+- [x] 阅读项：`docs/zh/s13-background-tasks.md`；`docs/zh/s13a-runtime-task-model.md`；`agents/s13_background_tasks.py`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/LocalShellTask/LocalShellTask.tsx:39-180,180-259,293-515`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/LocalAgentTask/LocalAgentTask.tsx:50-149,197-270,412-657`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/RemoteAgentTask/RemoteAgentTask.tsx:124-225,386-808`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/InProcessTeammateTask/types.ts:78-121`
+- [x] 产出项：做一张 runtime task 类型族地图，明确 `local_bash / local_agent / remote_agent / teammate` 各自属于什么执行槽位。
+- [x] 验证命令：`python agents/s13_background_tasks.py`
+- [x] 学习指南：[day12-runtime-task-background-execution-guide.md](./day12-runtime-task-background-execution-guide.md) 输出物链接：[s13-day12-runtime-task-family-map-output.md](./s13-day12-runtime-task-family-map-output.md)
 
 ### Day 13 Scheduler 与未来触发
-- [ ] 阅读项：`docs/zh/s14-cron-scheduler.md`；`agents/s14_cron_scheduler.py`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/ScheduleCronTool/CronCreateTool.ts:56-157`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/ScheduleCronTool/CronListTool.ts:37-97`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/ScheduleCronTool/CronDeleteTool.ts:35-95`；`/Users/hong.gao/python/src/claude-code-codex/src/hooks/useScheduledTasks.ts:40-139`
-- [ ] 产出项：画出“schedule record -> checker -> notification -> 主循环回注”的链路图，并写清 `schedule` 和 `runtime task` 为什么不是同一层。
-- [ ] 验证命令：`python agents/s14_cron_scheduler.py`
-- [ ] 输出物链接：[]()
+- [x] 阅读项：`docs/zh/s14-cron-scheduler.md`；`agents/s14_cron_scheduler.py`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/ScheduleCronTool/CronCreateTool.ts:56-157`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/ScheduleCronTool/CronListTool.ts:37-97`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/ScheduleCronTool/CronDeleteTool.ts:35-95`；`/Users/hong.gao/python/src/claude-code-codex/src/hooks/useScheduledTasks.ts:40-139`
+- [x] 产出项：画出“schedule record -> checker -> notification -> 主循环回注”的链路图，并写清 `schedule` 和 `runtime task` 为什么不是同一层。
+- [x] 验证命令：`python agents/s14_cron_scheduler.py`
+- [x] 学习指南：[day13-scheduler-future-trigger-guide.md](./day13-scheduler-future-trigger-guide.md) 输出物链接：[s14-day13-scheduler-future-trigger-output.md](./s14-day13-scheduler-future-trigger-output.md)
 
 ### Day 14 Task / Runtime / Notification 三层联读
 - [ ] 阅读项：`docs/zh/s00b-one-request-lifecycle.md`；`docs/zh/s13a-runtime-task-model.md`；`docs/zh/entity-map.md`；`agents/s_full.py`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/LocalMainSessionTask.ts:94-224,338-479`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/stopTask.ts:10-100`；`/Users/hong.gao/python/src/claude-code-codex/src/screens/REPL.tsx:1737-1938,2663-2863,4047-4120`
