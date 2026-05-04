@@ -93,16 +93,16 @@
 - [x] 学习指南：[day13-scheduler-future-trigger-guide.md](./day13-scheduler-future-trigger-guide.md) 输出物链接：[s14-day13-scheduler-future-trigger-output.md](./s14-day13-scheduler-future-trigger-output.md)
 
 ### Day 14 Task / Runtime / Notification 三层联读
-- [ ] 阅读项：`docs/zh/s00b-one-request-lifecycle.md`；`docs/zh/s13a-runtime-task-model.md`；`docs/zh/entity-map.md`；`agents/s_full.py`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/LocalMainSessionTask.ts:94-224,338-479`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/stopTask.ts:10-100`；`/Users/hong.gao/python/src/claude-code-codex/src/screens/REPL.tsx:1737-1938,2663-2863,4047-4120`
-- [ ] 产出项：写 1 页“durable task / runtime task / notification / transcript”四层边界说明，要求每层都给出 1 个真实例子。
-- [ ] 验证命令：`python -m pytest tests/test_s_full_background.py -q`
-- [ ] 输出物链接：[]()
+- [x] 阅读项：`docs/zh/s00b-one-request-lifecycle.md`；`docs/zh/s13a-runtime-task-model.md`；`docs/zh/entity-map.md`；`agents/s_full.py`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/LocalMainSessionTask.ts:94-224,338-479`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/stopTask.ts:10-100`；`/Users/hong.gao/python/src/claude-code-codex/src/screens/REPL.tsx:1737-1938,2663-2863,4047-4120`
+- [x] 产出项：写 1 页“durable task / runtime task / notification / transcript”四层边界说明，要求每层都给出 1 个真实例子。
+- [ ] 验证命令：`python -m pytest tests/test_s_full_background.py -q`（1 passed in 0.01s）
+- [x] 学习指南：[day14-task-runtime-notification-guide.md](./day14-task-runtime-notification-guide.md) 输出物链接：[s14a-day14-task-runtime-notification-transcript-output.md](./s14a-day14-task-runtime-notification-transcript-output.md)
 
 ### Day 15 阶段 3 复盘与小型原型
-- [ ] 阅读项：`docs/zh/s00d-chapter-order-rationale.md`；`docs/zh/s00e-reference-module-map.md`；`agents/s12_task_system.py`；`agents/s13_background_tasks.py`；`agents/s14_cron_scheduler.py`；`/Users/hong.gao/python/src/claude-code-codex/src/query.ts:1478-1903`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/types.ts:1-46`
+- [x] 阅读项：`docs/zh/s00d-chapter-order-rationale.md`；`docs/zh/s00e-reference-module-map.md`；`agents/s12_task_system.py`；`agents/s13_background_tasks.py`；`agents/s14_cron_scheduler.py`；`/Users/hong.gao/python/src/claude-code-codex/src/query.ts:1478-1903`；`/Users/hong.gao/python/src/claude-code-codex/src/tasks/types.ts:1-46`
 - [ ] 产出项：实现一个最小 “task + runtime slot + schedule queue” 原型，或写一份等价设计文档，必须包含数据结构、状态机和触发链。
-- [ ] 验证命令：`python -m pytest tests/test_agents_smoke.py -q`
-- [ ] 输出物链接：[]()
+- [ ] 验证命令：`python -m pytest tests/test_agents_smoke.py -q`（23 passed）
+- [x] 学习指南：[day15-stage3-review-mini-prototype-guide.md](./day15-stage3-review-mini-prototype-guide.md) 输出物链接：[s14b-day15-task-runtime-schedule-prototype-output.md](./s14b-day15-task-runtime-schedule-prototype-output.md)
 
 ## 第 4 周：多 Agent 平台与外部能力总线（s15-s19）
 
@@ -110,31 +110,31 @@
 - [ ] 阅读项：`docs/zh/s15-agent-teams.md`；`docs/zh/team-task-lane-model.md`；`agents/s15_agent_teams.py`；`/Users/hong.gao/python/src/claude-code-codex/docs/04-multi-agent-coordinator.md`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/TeamCreateTool/TeamCreateTool.ts:74-220`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/shared/spawnMultiAgent.ts:72-294,760-1093`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/SendMessageTool/SendMessageTool.ts:149-266,520-760`；`/Users/hong.gao/python/src/claude-code-codex/src/context/mailbox.tsx:8-37`
 - [ ] 产出项：画出 teammate 生命周期图，明确 team member、mailbox、runtime task、leader 之间的关系。
 - [ ] 验证命令：`python agents/s15_agent_teams.py`
-- [ ] 输出物链接：[]()
+- [ ] 学习指南：[day16-agent-teams-message-bus-guide.md](./day16-agent-teams-message-bus-guide.md) 输出物链接：[s15-day16-agent-teams-message-bus-output.md](./s15-day16-agent-teams-message-bus-output.md)
 
 ### Day 17 Team Protocols 与 Coordinator 纪律
 - [ ] 阅读项：`docs/zh/s16-team-protocols.md`；`docs/zh/team-task-lane-model.md`；`agents/s16_team_protocols.py`；`/Users/hong.gao/python/src/claude-code-codex/src/coordinator/coordinatorMode.ts:36-111,111-194`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/SendMessageTool/SendMessageTool.ts:268-518,741-917`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/TaskStopTool/TaskStopTool.ts:39-131`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/mailbox.ts:19-73`
 - [ ] 产出项：写一页“自由文本消息 vs 协议消息”的对比说明，必须明确 `request_id` 为什么是团队协作的硬边界。
 - [ ] 验证命令：`python agents/s16_team_protocols.py`
-- [ ] 输出物链接：[]()
+- [ ] 学习指南：[day17-team-protocols-coordinator-guide.md](./day17-team-protocols-coordinator-guide.md) 输出物链接：[s16-day17-team-protocols-coordinator-output.md](./s16-day17-team-protocols-coordinator-output.md)
 
 ### Day 18 Autonomous Agents 与权限分层
 - [ ] 阅读项：`docs/zh/s17-autonomous-agents.md`；`docs/zh/team-task-lane-model.md`；`agents/s17_autonomous_agents.py`；`/Users/hong.gao/python/src/claude-code-codex/src/coordinator/coordinatorMode.ts:80-194`；`/Users/hong.gao/python/src/claude-code-codex/src/hooks/toolPermission/handlers/coordinatorHandler.ts:26-65`；`/Users/hong.gao/python/src/claude-code-codex/src/hooks/toolPermission/handlers/swarmWorkerHandler.ts:40-159`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/swarm/inProcessRunner.ts:519-689,883-1040,1544-1552`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/swarm/spawnInProcess.ts:104-227`
 - [ ] 产出项：画出 “任务认领 -> worker 启动 -> 权限桥接 -> 结果回收 -> 恢复续行” 的自治协作图。
 - [ ] 验证命令：`python agents/s17_autonomous_agents.py`
-- [ ] 输出物链接：[]()
+- [ ] 学习指南：[day18-autonomous-agents-permission-guide.md](./day18-autonomous-agents-permission-guide.md) 输出物链接：[s17-day18-autonomous-agents-permission-output.md](./s17-day18-autonomous-agents-permission-output.md)
 
 ### Day 19 Worktree 执行车道
 - [ ] 阅读项：`docs/zh/s18-worktree-task-isolation.md`；`docs/zh/team-task-lane-model.md`；`agents/s18_worktree_task_isolation.py`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/EnterWorktreeTool/EnterWorktreeTool.ts:52-127`；`/Users/hong.gao/python/src/claude-code-codex/src/tools/ExitWorktreeTool/ExitWorktreeTool.ts:79-122,148-329`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/worktree.ts:158-235,702-813,902-1180`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/worktreeModeEnabled.ts:1-11`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/sessionStorage.ts:2889-2914,3472-3835`
 - [ ] 产出项：整理 “task / runtime task / worktree lane” 三层关系，至少覆盖创建、进入、保留、移除、恢复五个生命周期节点。
 - [ ] 验证命令：`python agents/s18_worktree_task_isolation.py`
-- [ ] 输出物链接：[]()
+- [ ] 学习指南：[day19-worktree-execution-lane-guide.md](./day19-worktree-execution-lane-guide.md) 输出物链接：[s18-day19-worktree-execution-lane-output.md](./s18-day19-worktree-execution-lane-output.md)
 
 ### Day 20 MCP、Plugin 与总复刻
 - [ ] 阅读项：`docs/zh/s19-mcp-plugin.md`；`docs/zh/s19a-mcp-capability-layers.md`；`agents/s19_mcp_plugin.py`；`/Users/hong.gao/python/src/claude-code-codex/src/entrypoints/mcp.ts:36-197`；`/Users/hong.gao/python/src/claude-code-codex/src/services/mcp/config.ts:62-223,625-888,1071-1297,1470-1553`；`/Users/hong.gao/python/src/claude-code-codex/src/services/mcp/client.ts:595-744,1743-2033,2226-2813,3029-3262`；`/Users/hong.gao/python/src/claude-code-codex/src/services/mcp/MCPConnectionManager.tsx:17-72`；`/Users/hong.gao/python/src/claude-code-codex/src/tools.ts:191-257,343-387`；`/Users/hong.gao/python/src/claude-code-codex/src/main.tsx:518-760,858-930`；`/Users/hong.gao/python/src/claude-code-codex/src/utils/plugins/pluginLoader.ts:266-365,492-718,1147-1360,1888-2237,3009-3232`
 - [ ] 产出项：实现一个 500-1000 行 mini Claude Code 原型，或写一份等价蓝图文档，最少覆盖 `loop / tools / permissions / compact / task / teams / worktree / MCP` 八块，并标出哪些能力来自当前教学仓库、哪些来自参考源码映射。
 - [ ] 验证命令：`cd /Users/hong.gao/python/src/claude-code-codex && bun run typecheck`
-- [ ] 输出物链接：[]()
+- [ ] 学习指南：[day20-mcp-plugin-capability-bus-guide.md](./day20-mcp-plugin-capability-bus-guide.md) 输出物链接：[s19-day20-mcp-plugin-capability-bus-output.md](./s19-day20-mcp-plugin-capability-bus-output.md)
 
 ## 每周固定复盘模板
 
